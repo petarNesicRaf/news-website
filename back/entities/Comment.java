@@ -8,6 +8,7 @@ public class Comment {
     @NotNull(message = "Author is required")
     @NotEmpty(message = "Author is required")
     private String author;
+    ///
     @NotNull(message = "Comment is required")
     @NotEmpty(message = "Comment is required")
     private String comment;
